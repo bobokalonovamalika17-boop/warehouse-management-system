@@ -55,7 +55,7 @@ def add_product():
         "quantity": quantity,
     }
     products.append(thisdict)
-    print("Товар добавлен")
+    print("Товар добавлен.")
 
 
 def delete_product():
@@ -71,4 +71,14 @@ def delete_product():
 
 
 def update_product():
+    id_to_update = int(input("Введите ID товара: "))\
     
+    for product in products:
+        if product['id'] == id_to_update:
+            products['name'] = input("Название: ")
+            products['category'] = input("Категория: ")
+            products['price'] = input("Цена: ")
+            products['quantity'] = input("Количество: ")
+            print("Данные успешно обновлены.")
+    else:
+        print("Нет такого товара.")        
