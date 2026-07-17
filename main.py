@@ -2,8 +2,7 @@
 # Главное меню
 # Отображается главное меню где пользователь может выбрать категории
 
-from warehouse import show_menu, show_products, add_product, delete_product, update_product
-
+from warehouse import show_menu, show_products, add_product, delete_product, update_product, search_products, sell_products, restock_product, show_categories,  show_statistics
 from data import products
 
 
@@ -19,8 +18,18 @@ def main():
             delete_product()
         elif choice == '4':
             update_product()
+        elif choice == '5':
+            search_products() 
+        elif choice == '6':
+            sell_products()
+        elif choice == '7':
+            restock_product()
+        elif choice == '8':
+            show_categories()
+        elif choice == '9':
+            show_statistics()
         else:
-            print("Нет такой опции")
+            print("Нет такой опции.")
             break
 
 
