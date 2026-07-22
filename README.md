@@ -52,8 +52,7 @@ warehouse-management-system/
 ├── warehouse.py
 ├── data.py
 ├── utils.py
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ## Запуск проекта
@@ -66,3 +65,9 @@ warehouse-management-system/
 ## Автор
 
 **Малика Бобокалонова**
+
+## Контакты
+
+[Malika Bobokalonova]
+Email: bobokalonovamalika17@gmail.com
+LinkedIn: [https://www.linkedin.com/in/malika-bobokalonova-9a115a387] GitHub: [https://github.com/bobokalonovamalika17-boop]
